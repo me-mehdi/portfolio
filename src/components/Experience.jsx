@@ -53,37 +53,6 @@ const ExperienceItem = ({ role, companies, period, location, tech, achievements,
                     </li>
                 ))}
             </ul>
-
-            <div style={{ display: 'flex', gap: '1rem' }}>
-                <button style={{
-                    padding: '0.6rem 1.2rem',
-                    background: 'transparent',
-                    border: '1px solid var(--text-muted)',
-                    color: 'var(--text-muted)',
-                    borderRadius: '4px',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.5rem',
-                    fontSize: '0.9rem'
-                }}>
-                    <Github size={14} /> View Code
-                </button>
-                <button style={{
-                    padding: '0.6rem 1.2rem',
-                    background: 'rgba(0, 243, 255, 0.1)',
-                    border: '1px solid var(--neon-blue)',
-                    color: 'var(--neon-blue)',
-                    borderRadius: '4px',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.5rem',
-                    fontSize: '0.9rem'
-                }}>
-                    <ExternalLink size={14} /> Live Demo
-                </button>
-            </div>
         </div>
     </div>
 );
