@@ -25,7 +25,7 @@ const Navbar = () => {
         height: '80px'
       }}>
         <div className="logo font-tech" style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--neon-blue)', zIndex: 1001 }}>
-          MEZH<span style={{ color: 'var(--text-main)' }}>.DEV</span>
+          MEHDI<span style={{ color: 'var(--text-main)' }}>.NZ</span>
         </div>
 
         {/* Mobile Toggle */}
@@ -37,10 +37,10 @@ const Navbar = () => {
         <div className={`nav-links ${isOpen ? 'active' : ''}`}>
           {['About', 'Skills', 'Experience', 'Projects', 'Contact'].map((item) => (
             <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
-                className="nav-link font-tech"
-                onClick={() => setIsOpen(false)}
+              key={item}
+              href={`#${item.toLowerCase()}`}
+              className="nav-link font-tech"
+              onClick={() => setIsOpen(false)}
             >
               {item}
             </a>
